@@ -1,0 +1,36 @@
+:root {
+  --font-body-family: "quasimoda", sans-serif !important;
+  --font-heading-family: "quasimoda", sans-serif !important;
+}
+
+.coll-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coll-list .coll-list__item {
+  margin: 1rem;
+}
+
+.coll-list .coll-list__item .coll_item__content {
+  padding: 1rem;
+  text-decoration: none;
+  min-width: 22rem
+}
+
+h2.featured-collection__title,
+h2.collection-list__title,
+h2.blog__title {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+strong,
+h2.footer-block__heading {
+  display: inline-block;
+  background-color: #FFA9FF;
+}
